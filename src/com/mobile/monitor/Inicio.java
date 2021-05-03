@@ -126,7 +126,7 @@ public class Inicio {
 	            //tb.setCommandListener((CommandListener)inMIDlet); 
 	            
 				try {
-					sc = new Socket("bancodenotas.crisnello.com",3334); 
+					sc = new Socket("rastreware.crisnello.com",3334); 
 			    	//sc.setSocketOption(SocketConnection.LINGER, 5);  
 			    	is = sc.getInputStream();
 			    	os = sc.getOutputStream();  
